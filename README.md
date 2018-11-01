@@ -1,7 +1,7 @@
 # pointSeg
-DataFountain 自动驾驶点云分割赛开源
+DataFountain 自动驾驶点云分割赛
 环境 Python3.6 & Tensouflow 1.7.1 
-复赛成绩：0.85+（结果有点惨）
+复赛成绩：0.085+（结果有点惨）
 最近有点忙，这个脑洞就不跟大家解释那么快了，后面再整个文档给大家。
 # 1、数据及任务描述。
 官方描述：https://www.datafountain.cn/competitions/314/details/data-evaluation
@@ -21,4 +21,5 @@ flame_index pts intensity category
 设置好相关的路径，运行 data_merge.py 将大量csv文件合并成一个大的文件。
 设置好npy路径，运行 pointSeg.py （参数is_training = True 用于训练， is_trainig = False 用于预测）
 
-
+欢迎大家一起交流：kiclent@yahoo.com
+QQ/WeChat: 774778776
