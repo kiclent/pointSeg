@@ -21,5 +21,7 @@ flame_index pts intensity category
 设置好相关的路径，运行 data_merge.py 将大量csv文件合并成一个大的文件。
 设置好npy路径，运行 pointSeg.py （参数is_training = True 用于训练， is_trainig = False 用于预测）
 
+已经训练的模型：https://pan.baidu.com/s/1-khZ4aV-Iw3BM24TKkjqig
+
 欢迎大家一起交流：kiclent@yahoo.com
 QQ/WeChat: 774778776
